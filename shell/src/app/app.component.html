@@ -3,6 +3,27 @@
     <div class="col-sm">
       <app-header></app-header>
       <h1>This is the shell</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h2>This is projectOne appComponent</h2>
+          <app-project-one *axLazyElement="urlProject1"></app-project-one>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row p-1">
+    <div class="col-md-5 justify-content-center">
+      <h2>This is projectTwo formComponent</h2>
+      <app-project-two-form *axLazyElement="urlProject2"></app-project-two-form>
+    </div>
+    <div class="col-md-2">
+      <h2>By clicking submit, the inserted data will be sent to the table</h2>
+    </div>
+    <div class="col-md-5 justify-content-center">
+      <h2>This is projectOne dashboardComponent</h2>
+      <app-project-one-dashboard
+        *axLazyElement="urlProject1"
+      ></app-project-one-dashboard>
     </div>
   </div>
 </div>
