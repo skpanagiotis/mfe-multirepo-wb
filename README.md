@@ -2,7 +2,7 @@
 
 # Web Component
 
-Multirepo Implementantion using **Web Components**.
+Multirepo Micro-Frontend Implementantion using **Web Components**.
 
 ## Tools
 
